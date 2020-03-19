@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(141, 126, 226, 0.658), rgba(27, 163, 27, 0.329));
+}
+#wrapper{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#wrapper form{
+    min-width: 340px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    position: relative;
+    background-color: rgb(38, 92, 66);
+}
+
+#wrapper form h1{
+    font-family: cursive;
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+#wrapper form .texts{
+    display: grid;
+    gap: 10px;
+}
+.texts input{
+    display: block;
+    padding: 15px;
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.btn{
+    display: grid;
+    justify-content: center;
+
+}
+.btn input{
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    min-width: 9rem;
+    border-radius: 10px;
+    color: rgb(190, 197, 190);
+    background-color: rgba(201, 18, 201, 0.11);
+    outline: none;
+    font-weight: 1000;
+    font-size: 1.1rem;
+    transition: 800ms;
+}
+.btn input:hover{
+    transform: scale(0.9);
+    background-color: rgba(190, 197, 190, 0.5);
+    color: #272727;
+   
+}
+.message{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.message a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.message a:hover{
+    color: rgb(184, 181, 12);
+}
